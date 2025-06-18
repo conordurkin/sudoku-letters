@@ -10,8 +10,5 @@
       ],
       "js": ["content.js"]
     }
-  ],
-  "icons": {
-    "48": "icon48.png"
-  }
+  ]
 } 
