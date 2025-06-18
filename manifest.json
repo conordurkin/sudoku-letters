@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Sudoku Letters",
+  "version": "1.0",
+  "description": "Display letters A–I instead of numbers 1–9 on the NYT Sudoku puzzle.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.nytimes.com/puzzles/sudoku*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "icons": {
+    "48": "icon48.png"
+  }
+} 
